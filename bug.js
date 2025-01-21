@@ -1,0 +1,1 @@
+In Next.js 15, an uncommon error arises when using the `async/await` syntax within a custom `getServerSideProps` function that fetches data and subsequently redirects to a different page. The issue manifests when the redirect is performed within a `try...catch` block, which, under certain conditions, might not properly execute the redirection.
